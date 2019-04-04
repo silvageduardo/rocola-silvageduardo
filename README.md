@@ -34,7 +34,7 @@ y le podemos preguntar:
 - discos disponibles, ordenados por titulo
 - artistas disponibles, ordenados por nombre
 - albunes por género
-- cancinoes por género
+- canciones por género
 
 
 ## Segunda Parte
