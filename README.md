@@ -6,9 +6,45 @@ Una Rocola,también conocida en castellano como sinfonola, gramola o rocola, o j
 
 Vamos a modelar una rocola y su contenido.
 
+De cada Disco sabemos que tiene:
+- titulo: título del disco
+- autor: autor del disco
+- genero: género del disco
+- canciones: lista de canciones del disco
+
+De los géneros sabemos que existen los siguientes:
+- `Rock`, `Pop`, `Hip Hop`, `Trap`, `Clásico`, `Folk`
+
+Del Autor sabemos :
+- nombre artístico
+- discos: discos de los cuales es autor
+
+De las canciones sabemos :
+- título
+- duración en minutos
+- disco al que pertenece
+
+De una Rocola sabemos que tiene: 
+
+- discos disponibles para reproducir
+
+y le podemos preguntar:
+
+- canciones disponibles, ordenadas por titulo
+- discos disponibles, ordenados por titulo
+- artistas disponibles, ordenados por nombre
+- albunes por género
+- cancinoes por género
+
+
 ## Segunda Parte
 
 Vamos a modelar el funcionamiento de la rocola. La rocola permite reproducir canciones y / o albunes  por un precio determinado. El precio depende del artista.
+
+reproducir cancion
+reproducir disco
+reproducir random
+
 
 ## Tercera Parte
 
