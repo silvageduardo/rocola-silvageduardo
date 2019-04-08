@@ -41,9 +41,15 @@ y le podemos preguntar:
 
 Vamos a modelar el funcionamiento de la rocola. La rocola permite reproducir canciones y / o albunes  por un precio determinado. El precio depende del artista.
 
-reproducir cancion
-reproducir disco
-reproducir random
+La rocola permite:
+
+- reproducir cancion
+- reproducir disco
+- reproducir random
+
+Se mantiene un registro de las veces que se re produjo una cancion o un album.
+
+Se permite buscar la Canción, el Disco y el artista con mas reproducciones.
 
 
 ## Tercera Parte
