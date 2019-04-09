@@ -15,14 +15,15 @@ De cada Disco sabemos que tiene:
 De los géneros sabemos que existen los siguientes:
 - `Rock`, `Pop`, `Hip Hop`, `Trap`, `Clásico`, `Folk`
 
-Del Autor sabemos :
+Del Artista sabemos :
 - nombre artístico
 - discos: discos de los cuales es autor
 
 De las canciones sabemos :
 - título
 - duración en minutos
-- discos a los que pertenece
+- autor: el nombre del autor
+- discos a los que pertenece: puede pertenecer a mas de 1 disco, debe permitir agregarle mas discos luego de creado el objeto.
 
 De una Rocola sabemos que tiene: 
 
