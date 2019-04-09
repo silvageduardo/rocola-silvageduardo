@@ -51,8 +51,10 @@ Se permite buscar la `Canción`, el `Disco` y el `Artista` con mas reproduccione
 ## Tercera Parte
 
 El precio por canción está definido en cada Rocola. La rocola no permite reproducir una canción o album sino se deposito previamente dinero.
-El usuario de la Rocola puede cargar la cantidad de dinero que desee, la misma queda guardada en la Rocola y se va descontando mientras se va reproduciendo música.
+El usuario de la Rocola puede `cargar` la cantidad de dinero que desee, la misma queda guardada en la Rocola y se va descontando mientras se va reproduciendo música.
 Si no hay creditos suficientes, arroja un error al intentar reproducir.
+
+La rocola debe recordar el dinero recaudado.
 
 
 
