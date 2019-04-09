@@ -34,24 +34,24 @@ y le podemos preguntar:
 - canciones disponibles, ordenadas por titulo
 - discos disponibles, ordenados por titulo
 - artistas disponibles, ordenados por nombre
-- albunes por género
+- álbumes por género
 - canciones por género
 
 ## Segunda Parte
 
-Vamos a modelar el funcionamiento de la rocola. La rocola permite reproducir canciones y / o albunes.
+Vamos a modelar el funcionamiento de la rocola. La rocola permite reproducir canciones y / o álbumes.
 La rocola permite:
 
 - reproducir cancion: reproduce una canción seleccionada
-- reproducir disco: reproduce todas las canciones de un album
+- reproducir disco: reproduce todas las canciones de un álbum
 - reproducir random: reproduce una canción en forma aleatorea
 
-Se mantiene un registro de las veces que se re produjo una cancion o un album.
+Se mantiene un registro de las veces que se re produjo una cancion o un álbum.
 Se permite buscar la `Canción`, el `Disco` y el `Artista` con mas reproducciones.
 
 ## Tercera Parte
 
-El precio por canción está definido en cada Rocola. La rocola no permite reproducir una canción o album sino se deposito previamente dinero.
+El precio por canción está definido en cada Rocola. La rocola no permite reproducir una canción o álbum sino se deposito previamente dinero.
 El usuario de la Rocola puede `cargar` la cantidad de dinero que desee, la misma queda guardada en la Rocola y se va descontando mientras se va reproduciendo música.
 Si no hay creditos suficientes, arroja un error al intentar reproducir.
 
