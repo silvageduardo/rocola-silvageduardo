@@ -22,7 +22,7 @@ Del Autor sabemos :
 De las canciones sabemos :
 - título
 - duración en minutos
-- disco al que pertenece
+- discos a los que pertenece
 
 De una Rocola sabemos que tiene: 
 
