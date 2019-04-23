@@ -23,4 +23,10 @@ public class Cancion implements Comparable<Cancion> {
     public int compareTo(Cancion o) {
         return this.titulo.compareTo(o.titulo);
     }
+
+    public String getTitulo(){
+        return titulo;
+    }
+
+
 }

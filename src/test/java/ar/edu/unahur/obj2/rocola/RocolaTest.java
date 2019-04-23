@@ -31,7 +31,7 @@ public class RocolaTest {
     private Rocola rocola;
 
     @BeforeTest
-    public void setuop() {
+    public void setup() {
         cancion1 = new Cancion("cancion1", 10);
         cancion2 = new Cancion("cancion2", 10);
         cancion3 = new Cancion("cancion3", 10);
