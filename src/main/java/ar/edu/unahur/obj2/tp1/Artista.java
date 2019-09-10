@@ -4,13 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class Artista {
+public class Artista implements Comparable<Artista> {
     private String nombre;
     private List<Disco> discos = new ArrayList<>();
 
-    public Artista(String nombre, List<Disco> discos) {
+    public Artista(String nombre) {
         this.nombre = nombre;
-        this.discos = discos;
+    }
+    public void agregarDisco(Disco disco){
+        this.discos.add(disco);
     }
 
     public String getNombre() {
@@ -22,24 +24,7 @@ public class Artista {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Artista)) return false;
-        Artista artista = (Artista) o;
-        return Objects.equals(getNombre(), artista.getNombre()) &&
-                Objects.equals(getDiscos(), artista.getDiscos());
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(getNombre(), getDiscos());
-    }
-
-    @Override
-    public String toString() {
-        return "Artista{" +
-                "nombre='" + nombre + '\'' +
-                ", discos=" + discos +
-                '}';
+    public int compareTo(Artista o) {
+        return 0;
     }
 }
